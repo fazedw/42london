@@ -1,0 +1,135 @@
+/* || General styles */
+
+body {
+    font-family: "Brother 1816";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+
+    box-sizing: border-box;
+    margin: 0 25vw;
+}
+
+button {
+    /* width: 100px;
+    height: 25px; */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+
+    background: none;
+    border: none;
+
+}
+
+img.image-list {
+    object-fit: contain;
+    width: 100%;
+}
+
+.no-bullet{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.dot {
+    height: 16px;
+    width: 16px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+/* || Typography */
+
+
+h1 {
+    font-family: "Bely";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 111.111% */
+}
+
+
+h4 {
+    font-family: "Brother 1816";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px; /* 160% */
+}
+
+a {
+    font-family: "Brother 1816";
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 126.316% */ 
+    font-style: u;
+
+    text-decoration: none;
+    color: #0099FB;
+}
+
+/* || Header & main navigation */
+
+
+/* || Sections */
+
+.header {
+    padding: 1em 0 0 1em;
+}
+
+.icon-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+}
+
+.caption {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.caption-content {
+    background-color: #144650;
+    color: white;
+    padding: 0 0.5em;
+    gap: 1em;
+
+    flex: 1;
+}
+
+.menu-icon {
+    background-color: #0099FB;
+    padding: 0 auto;
+    align-items: center;
+    flex: 0.1;
+}
+
+.features-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.features-item {
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #DDD;
+    width: 12vw;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
